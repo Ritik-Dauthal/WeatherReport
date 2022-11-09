@@ -49,7 +49,7 @@ const handleSearch = () => {
   return (
     <div className="flex-col justify-center items-center " >
       <div className="h-screen">
-      <div className="bg-sky-300 h-1/2 flex flex-col md:flex justify-center items-center "> 
+      <div className="bg-sky-300 h-1/2 flex flex-col md:flex-row justify-center items-center "> 
       <input type="search" placeholder="Enter City Here" onChange={handleChange} value={city} className="border-4 border-gray-700 rounded-md mb-2 md:mb-0 text-center"/>
       <button className="px-2 py-1 bg-blue-600 text-white rounded-md hover:bg-red-800" onClick={handleSearch} >Search</button></div>
       <div className="h-1/2 bg-gray-300  flex flex-col justify-center items-center">
